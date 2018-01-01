@@ -12,11 +12,8 @@ Open the `DIVAR.uproj` file using Unreal Engine 4 to start
 ### Prerequisites
 
 [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4)
-[Visual Studio](https://www.visualstudio.com/)
 
-```
-Give examples
-```
+[Visual Studio](https://www.visualstudio.com/)
 
 ## Style Guide
 This project strictly follows the [Gamemakin'](http://ue4.style/) style guide
@@ -37,7 +34,7 @@ See also the list of [contributors](https://github.com/Waelwindows/DIVAR/contrib
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
 
