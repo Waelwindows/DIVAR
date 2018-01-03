@@ -208,10 +208,12 @@ void ANotePlayerController::OnHitNote(EType type)
 		//DIVA COOL=0.03 FINE=0.07 SAFE=0.10 SAD=0.13
 
 		float hitTime = Notes[0]->flyProgress;
+		int coolScore = 200;
+		int goodScore = 200;
 		if (typeCondition && hitTime <= 0.13)
 		{
 			
-			if      (abs(hitTime) <= 0.03) { CreateGrade(EGrade::COOL); }
+			if (abs(hitTime) <= 0.03) { CreateGrade(EGrade::COOL); score += coolScore; }
 			else if (abs(hitTime) <= 0.07) { CreateGrade(EGrade::FINE); }
 			else if (abs(hitTime) <= 0.10) { CreateGrade(EGrade::SAFE); }
 			else if (abs(hitTime) <= 0.13) { CreateGrade(EGrade::BAD); }
